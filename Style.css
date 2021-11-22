@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Title {
+  background-color: rgb(0, 140, 255);
+  text-align: center;
+}
+.Panel {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  height: 35px;
+  background-color: rgb(0, 140, 255);
+}
+.PanelText
+{
+  color:white;
+}
+.MainBody {
+  background-image: url(Wallpaper.jpg);
+  width: 1920;
+  height: 1080;
+}
+.TextBox {
+  padding: 15px;
+  margin: 10px;
+  margin-left: 25%;
+  width: 50%;
+}
+.TA {
+  text-align: center;
+}
+
+.SNbody {
+  background-image: url(SNwallpaper.jpg);
+}
+.SNpanel {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  background-color: rgb(255, 85, 85);
+}
+.Logo {
+  margin: auto;
+  display: block;
+  width: 200px;
+}
+
+.FGObody {
+  background-image: url(FGOwallpaper.jpg);
+}
+.FGOpanel {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  background-color: rgb(0, 100, 255);
+}
+.FGOrevenue
+{
+  width: 75%;
+  margin-left: 15%;
+}
